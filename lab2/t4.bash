@@ -9,6 +9,7 @@ do
 
     if [ -z $ppid ]; then 
         ppid="NO"
+        continue
     fi
     if [ -z ${runtime} ] || [ -z ${nr_switches} ]; then 
         time=0
